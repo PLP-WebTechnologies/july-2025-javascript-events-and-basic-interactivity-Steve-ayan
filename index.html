@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 Assignment - Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <p id="message"></p>
+
+    <input type="text" id="nameInput" placeholder="Type your name">
+    <p id="nameOutput"></p>
+
+    <div id="hoverBox">Hover over me</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Part 2: Interactive Features -->
+<section>
+  <h2>Part 2: Interactive Features</h2>
+
+  <!-- Dark Mode Toggle -->
+  <button id="toggleMode">Toggle Dark/Light Mode</button>
+
+  <!-- Counter -->
+  <div>
+    <h3>Counter Game</h3>
+    <p id="counterValue">0</p>
+    <button id="increaseBtn">Increase</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="faq">
+    <h3>FAQ Section</h3>
+    <div>
+      <p class="question">What is JavaScript? <span>+</span></p>
+      <p class="answer">JavaScript is a programming language that makes web pages interactive.</p>
+    </div>
+    <div>
+      <p class="question">What is DOM? <span>+</span></p>
+      <p class="answer">DOM stands for Document Object Model, a way to access and manipulate HTML elements.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Part 3: Form Validation -->
+<section>
+  <h2>Part 3: Form Validation</h2>
+  <form id="myForm">
+    <label>Name:</label>
+    <input type="text" id="formName"><br><br>
+
+    <label>Email:</label>
+    <input type="text" id="formEmail"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="formPassword"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="formMessage"></p>
+</section>

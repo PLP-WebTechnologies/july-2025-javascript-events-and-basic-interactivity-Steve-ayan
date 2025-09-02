@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 100px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+/* Counter */
+#counterValue {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+/* FAQ */
+.faq {
+  margin-top: 20px;
+}
+.question {
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.answer {
+  display: none;
+  margin-left: 15px;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
